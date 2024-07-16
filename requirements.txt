@@ -1,6 +1,6 @@
 polars
 scikit-learn
-fastapi[uvicorn]
+fastapi
 flask
 skl2onnx
 onnxruntime

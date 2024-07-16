@@ -20,9 +20,11 @@ import polars as pl
 
 
 # %%
-X, y  = make_classification(n_samples=100_000, n_features=10, n_informative=5, n_classes=3)
+X, y = make_classification(
+    n_samples=100_000, n_features=10, n_informative=5, n_classes=3
+)
 
 
 # %%
 df = pl.from_numpy(X).with_columns(classification=y)
-df.write_parquet('data.parquet')
+df.write_parquet("data/data.parquet")
