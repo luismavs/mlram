@@ -1,0 +1,6 @@
+polars
+scikit-learn
+fastapi[uvicorn]
+flask
+skl2onnx
+onnxruntime

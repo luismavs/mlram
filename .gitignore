@@ -1,0 +1,7 @@
+data/
+model/
+*flamegraph*
+*.bin
+*code-workspace
+*/.DS_Store
+*/__pycache__
